@@ -1,0 +1,25 @@
+# Godot 4+ specific ignores
+.godot/
+
+# Godot-specific ignores
+.import/
+export.cfg
+export_presets.cfg
+
+# Imported translations (генерируются автоматически)
+*.translation
+
+# Mono-specific (если не используешь C#)
+.mono/
+data_*/
+mono_crash.*.json
+
+# Exported builds
+*.zip
+*.exe
+*.app
+*.apk
+
+# OS specific
+.DS_Store
+Thumbs.db
